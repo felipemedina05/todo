@@ -1,0 +1,89 @@
+/* font-family: 'Poppins', sans-serif;*/
+
+* {
+  text-align: center;
+
+  padding-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  display: block;
+  margin: auto;
+}
+.contenedor {
+  width: 600px; /* Ajusta este valor al ancho deseado */
+  height: auto; /* Ajusta este valor al alto deseado */
+  display: block;
+  margin: auto;
+}
+
+.encabezado {
+  width: 300px; /* Ajusta este valor al ancho deseado */
+}
+.titulos {
+  border-bottom: 2px solid gray;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+}
+
+.titulos,
+ul,
+li,
+.estado {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding-inline: 3em;
+  padding-bottom: 0px;
+  cursor: pointer;
+}
+.activo {
+  border-bottom: 2px solid #2f80ed;
+}
+.descripcion {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3px;
+  padding: 2px;
+  width: 300px;
+  margin-right: 2px;
+}
+.oculto {
+  display: none;
+ 
+}
+
+.btnAdd {
+  background-color: #2f80ed;
+  color: white;
+  border-radius: 8px;
+  border-color: #2f80ed;
+  text-align: center;
+  width: 5rem;
+  cursor: pointer;
+}
+.tareas {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.tachado {
+  text-decoration: line-through;
+}
+
+.btnDelete {
+  background-color: #eb5757;
+  color: white;
+  border-radius: 8px;
+  border-color: #eb5757;
+  visibility: visible;
+  text-align: center;
+  width: 80px;
+  line-height: 25px;
+  cursor: pointer;
+}

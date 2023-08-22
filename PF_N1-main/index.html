@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/03fde18ba5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to Script -->
+    <script src="./main.js" defer type="module"></script>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1 class="encabezado">#todo</h1>
+
+      <div class="titulos">
+        <ul class="encabazdos">
+          <li class="activo" id="all">all</li>
+          <li class="" id="inconpletas">active</li>
+          <li class="" id="completadas">completed</li>
+        </ul>
+      </div>
+      <div class="descripcion ">
+        <input class="input" type="text" placeholder="Agrega tu tarea"/>
+        <button class="btnAdd">add</button>
+      </div>
+      <div class="listaTareas"></div>
+      <div class="tareasCompletadas"></div>
+      <div class="tareasPendientes"></div>
+      
+
+      <button class="btnDelete oculto">delete all</button>
+    </div>
+  </body>
+</html>
